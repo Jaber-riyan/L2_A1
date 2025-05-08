@@ -1,7 +1,7 @@
 {
     //
     function formatString(input: string, toUpper?: boolean): string {
-        if (toUpper == null) {
+        if (toUpper === undefined) {
             return input.toUpperCase()
         }
         if (!toUpper) {
